@@ -24,6 +24,10 @@ p {
   font-size: medium;
 }
 
+img {
+  width: 50%;
+}
+
 h1 {
   color:#EC4D26; 
 }
@@ -45,6 +49,12 @@ h1 {
   user-select: none;
 }
 
+.border {
+  border-top: 5px dotted #88C44F;
+  margin: 30px auto;
+  width: 50%;
+}
+
 /* -----index.htmlで使用----- */
 .link-twi {
   font-weight: bold;
@@ -60,12 +70,6 @@ h1 {
 }
 
 /* -----result.htmlで使用----- */
-.border {
-  border-top: 5px dotted #88C44F;
-  margin: 30px auto;
-  width: 50%;
-}
-
 .btn-twi {
   background-color: #00acee;
 
