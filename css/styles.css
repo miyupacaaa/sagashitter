@@ -24,8 +24,14 @@ p {
   font-size: medium;
 }
 
-img {
+.img1 {
+  width: 30%;
+  height: auto;
+}
+
+.img2 {
   width: 50%;
+  height: auto;
 }
 
 h1 {
