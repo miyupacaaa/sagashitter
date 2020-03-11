@@ -1,4 +1,4 @@
-`use stryct`
+`use strict`;
 
 {
   window.onload = function () {
