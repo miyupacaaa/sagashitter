@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+body {
+  font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic' ; 
+
+  font-family: 'Kosugi Maru', sans-serif;
+
+  color: #333;
+  background-color: #F4E9D6;
+  text-align: center;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  /* font-weight: bold; */
+}
+a:hover {
+  opacity: 0.8;
+}
+
+p {
+  text-align: center;
+  font-size: medium;
+}
+
+h1 {
+  color:#EC4D26; 
+}
+
+.btn {
+  color: #fff;
+  background-color: #EC4D26;
+
+  /* font-weight: bold; */
+  text-align: center;
+ 
+  border-radius: 10px;
+
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+
+  user-select: none;
+}
+
+/* -----index.htmlで使用----- */
+.link-twi {
+  font-weight: bold;
+  color: #00acee;
+}
+
+.by {
+  font-size: small;
+}
+
+.miyupaca {
+  color: gray;
+}
+
+/* -----result.htmlで使用----- */
+.border {
+  border-top: 5px dotted #88C44F;
+  margin: 30px auto;
+  width: 50%;
+}
+
+.btn-twi {
+  background-color: #00acee;
+
+}
+
+.return {
+  color: #f45e5e;
+}
+
+/* ローディング画面用のスタイル */
+#load{
+	text-align: center;
+	display: block;
+}
+
+
+
+/* 本体用のスタイル */
+#wrapper{
+	width: 100%;
+	text-align: center;
+	display: none;
+}
+
+/* ローディングアイコン */
+.loader {
+  margin: 100px auto;
+  font-size: 25px;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-animation: load5 1.1s infinite ease;
+  animation: load5 1.1s infinite ease;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+@-webkit-keyframes load5 {
+  0%,
+  100% {
+    box-shadow: 0em -2.6em 0em 0em #88c44f, 1.8em -1.8em 0 0em rgba(136,196,79, 0.2), 2.5em 0em 0 0em rgba(136,196,79, 0.2), 1.75em 1.75em 0 0em rgba(136,196,79, 0.2), 0em 2.5em 0 0em rgba(136,196,79, 0.2), -1.8em 1.8em 0 0em rgba(136,196,79, 0.2), -2.6em 0em 0 0em rgba(136,196,79, 0.5), -1.8em -1.8em 0 0em rgba(136,196,79, 0.7);
+  }
+  12.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(136,196,79, 0.7), 1.8em -1.8em 0 0em #88c44f, 2.5em 0em 0 0em rgba(136,196,79, 0.2), 1.75em 1.75em 0 0em rgba(136,196,79, 0.2), 0em 2.5em 0 0em rgba(136,196,79, 0.2), -1.8em 1.8em 0 0em rgba(136,196,79, 0.2), -2.6em 0em 0 0em rgba(136,196,79, 0.2), -1.8em -1.8em 0 0em rgba(136,196,79, 0.5);
+  }
+  25% {
+    box-shadow: 0em -2.6em 0em 0em rgba(136,196,79, 0.5), 1.8em -1.8em 0 0em rgba(136,196,79, 0.7), 2.5em 0em 0 0em #88c44f, 1.75em 1.75em 0 0em rgba(136,196,79, 0.2), 0em 2.5em 0 0em rgba(136,196,79, 0.2), -1.8em 1.8em 0 0em rgba(136,196,79, 0.2), -2.6em 0em 0 0em rgba(136,196,79, 0.2), -1.8em -1.8em 0 0em rgba(136,196,79, 0.2);
+  }
+  37.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(136,196,79, 0.2), 1.8em -1.8em 0 0em rgba(136,196,79, 0.5), 2.5em 0em 0 0em rgba(136,196,79, 0.7), 1.75em 1.75em 0 0em #88c44f, 0em 2.5em 0 0em rgba(136,196,79, 0.2), -1.8em 1.8em 0 0em rgba(136,196,79, 0.2), -2.6em 0em 0 0em rgba(136,196,79, 0.2), -1.8em -1.8em 0 0em rgba(136,196,79, 0.2);
+  }
+  50% {
+    box-shadow: 0em -2.6em 0em 0em rgba(136,196,79, 0.2), 1.8em -1.8em 0 0em rgba(136,196,79, 0.2), 2.5em 0em 0 0em rgba(136,196,79, 0.5), 1.75em 1.75em 0 0em rgba(136,196,79, 0.7), 0em 2.5em 0 0em #88c44f, -1.8em 1.8em 0 0em rgba(136,196,79, 0.2), -2.6em 0em 0 0em rgba(136,196,79, 0.2), -1.8em -1.8em 0 0em rgba(136,196,79, 0.2);
+  }
+  62.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(136,196,79, 0.2), 1.8em -1.8em 0 0em rgba(136,196,79, 0.2), 2.5em 0em 0 0em rgba(136,196,79, 0.2), 1.75em 1.75em 0 0em rgba(136,196,79, 0.5), 0em 2.5em 0 0em rgba(136,196,79, 0.7), -1.8em 1.8em 0 0em #88c44f, -2.6em 0em 0 0em rgba(136,196,79, 0.2), -1.8em -1.8em 0 0em rgba(136,196,79, 0.2);
+  }
+  75% {
+    box-shadow: 0em -2.6em 0em 0em rgba(136,196,79, 0.2), 1.8em -1.8em 0 0em rgba(136,196,79, 0.2), 2.5em 0em 0 0em rgba(136,196,79, 0.2), 1.75em 1.75em 0 0em rgba(136,196,79, 0.2), 0em 2.5em 0 0em rgba(136,196,79, 0.5), -1.8em 1.8em 0 0em rgba(136,196,79, 0.7), -2.6em 0em 0 0em #88c44f, -1.8em -1.8em 0 0em rgba(136,196,79, 0.2);
+  }
+  87.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(136,196,79, 0.2), 1.8em -1.8em 0 0em rgba(136,196,79, 0.2), 2.5em 0em 0 0em rgba(136,196,79, 0.2), 1.75em 1.75em 0 0em rgba(136,196,79, 0.2), 0em 2.5em 0 0em rgba(136,196,79, 0.2), -1.8em 1.8em 0 0em rgba(136,196,79, 0.5), -2.6em 0em 0 0em rgba(136,196,79, 0.7), -1.8em -1.8em 0 0em #88c44f;
+  }
+}
+@keyframes load5 {
+  0%,
+  100% {
+    box-shadow: 0em -2.6em 0em 0em #88c44f, 1.8em -1.8em 0 0em rgba(136,196,79, 0.2), 2.5em 0em 0 0em rgba(136,196,79, 0.2), 1.75em 1.75em 0 0em rgba(136,196,79, 0.2), 0em 2.5em 0 0em rgba(136,196,79, 0.2), -1.8em 1.8em 0 0em rgba(136,196,79, 0.2), -2.6em 0em 0 0em rgba(136,196,79, 0.5), -1.8em -1.8em 0 0em rgba(136,196,79, 0.7);
+  }
+  12.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(136,196,79, 0.7), 1.8em -1.8em 0 0em #88c44f, 2.5em 0em 0 0em rgba(136,196,79, 0.2), 1.75em 1.75em 0 0em rgba(136,196,79, 0.2), 0em 2.5em 0 0em rgba(136,196,79, 0.2), -1.8em 1.8em 0 0em rgba(136,196,79, 0.2), -2.6em 0em 0 0em rgba(136,196,79, 0.2), -1.8em -1.8em 0 0em rgba(136,196,79, 0.5);
+  }
+  25% {
+    box-shadow: 0em -2.6em 0em 0em rgba(136,196,79, 0.5), 1.8em -1.8em 0 0em rgba(136,196,79, 0.7), 2.5em 0em 0 0em #88c44f, 1.75em 1.75em 0 0em rgba(136,196,79, 0.2), 0em 2.5em 0 0em rgba(136,196,79, 0.2), -1.8em 1.8em 0 0em rgba(136,196,79, 0.2), -2.6em 0em 0 0em rgba(136,196,79, 0.2), -1.8em -1.8em 0 0em rgba(136,196,79, 0.2);
+  }
+  37.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(136,196,79, 0.2), 1.8em -1.8em 0 0em rgba(136,196,79, 0.5), 2.5em 0em 0 0em rgba(136,196,79, 0.7), 1.75em 1.75em 0 0em #88c44f, 0em 2.5em 0 0em rgba(136,196,79, 0.2), -1.8em 1.8em 0 0em rgba(136,196,79, 0.2), -2.6em 0em 0 0em rgba(136,196,79, 0.2), -1.8em -1.8em 0 0em rgba(136,196,79, 0.2);
+  }
+  50% {
+    box-shadow: 0em -2.6em 0em 0em rgba(136,196,79, 0.2), 1.8em -1.8em 0 0em rgba(136,196,79, 0.2), 2.5em 0em 0 0em rgba(136,196,79, 0.5), 1.75em 1.75em 0 0em rgba(136,196,79, 0.7), 0em 2.5em 0 0em #88c44f, -1.8em 1.8em 0 0em rgba(136,196,79, 0.2), -2.6em 0em 0 0em rgba(136,196,79, 0.2), -1.8em -1.8em 0 0em rgba(136,196,79, 0.2);
+  }
+  62.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(136,196,79, 0.2), 1.8em -1.8em 0 0em rgba(136,196,79, 0.2), 2.5em 0em 0 0em rgba(136,196,79, 0.2), 1.75em 1.75em 0 0em rgba(136,196,79, 0.5), 0em 2.5em 0 0em rgba(136,196,79, 0.7), -1.8em 1.8em 0 0em #88c44f, -2.6em 0em 0 0em rgba(136,196,79, 0.2), -1.8em -1.8em 0 0em rgba(136,196,79, 0.2);
+  }
+  75% {
+    box-shadow: 0em -2.6em 0em 0em rgba(136,196,79, 0.2), 1.8em -1.8em 0 0em rgba(136,196,79, 0.2), 2.5em 0em 0 0em rgba(136,196,79, 0.2), 1.75em 1.75em 0 0em rgba(136,196,79, 0.2), 0em 2.5em 0 0em rgba(136,196,79, 0.5), -1.8em 1.8em 0 0em rgba(136,196,79, 0.7), -2.6em 0em 0 0em #88c44f, -1.8em -1.8em 0 0em rgba(136,196,79, 0.2);
+  }
+  87.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(136,196,79, 0.2), 1.8em -1.8em 0 0em rgba(136,196,79, 0.2), 2.5em 0em 0 0em rgba(136,196,79, 0.2), 1.75em 1.75em 0 0em rgba(136,196,79, 0.2), 0em 2.5em 0 0em rgba(136,196,79, 0.2), -1.8em 1.8em 0 0em rgba(136,196,79, 0.5), -2.6em 0em 0 0em rgba(136,196,79, 0.7), -1.8em -1.8em 0 0em #88c44f;
+  }
+}
